@@ -1,0 +1,138 @@
+[
+  {
+    "ContainingType": "AceBank.Controllers.AccountController",
+    "Method": "GetAccountDetail",
+    "RelativePath": "Account/Get Account Detail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountnumber",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AceBank.Controllers.AccountController",
+    "Method": "SignUp",
+    "RelativePath": "Account/Sign Up",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "signupdetail",
+        "Type": "AceBank.Models.SignUpDetail",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AceBank.Controllers.AccountController",
+    "Method": "LogIn",
+    "RelativePath": "Account/User Log In",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccountNumber",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AceBank.Controllers.StaffController",
+    "Method": "CreditByStaff",
+    "RelativePath": "Staff/Credit by Staff",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staffdetail",
+        "Type": "AceBank.Models.StaffDetail",
+        "IsRequired": true
+      },
+      {
+        "Name": "amount",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "accountnumber",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AceBank.Controllers.StaffController",
+    "Method": "DebitByStaff",
+    "RelativePath": "Staff/Debit by Staff",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staffdetail",
+        "Type": "AceBank.Models.StaffDetail",
+        "IsRequired": true
+      },
+      {
+        "Name": "amount",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "accountnumber",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AceBank.Controllers.StaffController",
+    "Method": "StaffLogIn",
+    "RelativePath": "Staff/Staff Log In",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

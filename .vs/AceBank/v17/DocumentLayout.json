@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|c:\\users\\rohitsha\\source\\repos\\acebank\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|c:\\users\\rohitsha\\source\\repos\\acebank\\models\\signupdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:models\\signupdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|c:\\users\\rohitsha\\source\\repos\\acebank\\models\\accountdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:models\\accountdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|c:\\users\\rohitsha\\source\\repos\\acebank\\service\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:service\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|c:\\users\\rohitsha\\source\\repos\\acebank\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|c:\\users\\rohitsha\\source\\repos\\acebank\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|c:\\users\\rohitsha\\source\\repos\\acebank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|c:\\users\\rohitsha\\source\\repos\\acebank\\models\\staffdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:models\\staffdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|c:\\users\\rohitsha\\source\\repos\\acebank\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|c:\\users\\rohitsha\\source\\repos\\acebank\\models\\stafflogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:models\\stafflogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|c:\\users\\rohitsha\\source\\repos\\acebank\\models\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:models\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T15:24:09.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T15:19:03.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Service\\Service.cs",
+              "RelativeDocumentMoniker": "Service\\Service.cs",
+              "ToolTip": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Service\\Service.cs",
+              "RelativeToolTip": "Service\\Service.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T15:23:47.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUpDetail.cs",
+              "DocumentMoniker": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Models\\SignUpDetail.cs",
+              "RelativeDocumentMoniker": "Models\\SignUpDetail.cs",
+              "ToolTip": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Models\\SignUpDetail.cs",
+              "RelativeToolTip": "Models\\SignUpDetail.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T16:14:28.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountDetail.cs",
+              "DocumentMoniker": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Models\\AccountDetail.cs",
+              "RelativeDocumentMoniker": "Models\\AccountDetail.cs",
+              "ToolTip": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Models\\AccountDetail.cs",
+              "RelativeToolTip": "Models\\AccountDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T08:23:18.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IService.cs",
+              "DocumentMoniker": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Service\\IService.cs",
+              "RelativeDocumentMoniker": "Service\\IService.cs",
+              "ToolTip": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Service\\IService.cs",
+              "RelativeToolTip": "Service\\IService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T15:23:27.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "Controllers\\StaffController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAswBwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T14:16:43.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StaffLogin.cs",
+              "DocumentMoniker": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Models\\StaffLogin.cs",
+              "RelativeDocumentMoniker": "Models\\StaffLogin.cs",
+              "ToolTip": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Models\\StaffLogin.cs",
+              "RelativeToolTip": "Models\\StaffLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T09:44:56.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StaffDetail.cs",
+              "DocumentMoniker": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Models\\StaffDetail.cs",
+              "RelativeDocumentMoniker": "Models\\StaffDetail.cs",
+              "ToolTip": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Models\\StaffDetail.cs",
+              "RelativeToolTip": "Models\\StaffDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T14:22:03.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-10T16:40:41.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserDetail.cs",
+              "DocumentMoniker": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Models\\UserDetail.cs",
+              "RelativeDocumentMoniker": "Models\\UserDetail.cs",
+              "ToolTip": "C:\\Users\\ROHITSHA\\source\\repos\\AceBank\\Models\\UserDetail.cs",
+              "RelativeToolTip": "Models\\UserDetail.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwBEAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T15:31:16.63Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
