@@ -1,67 +1,110 @@
 ﻿using AceBank.Models;
 using AceBank.Service;
-using Amazon.Auth.AccessControlPolicy;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using MongoDB.Driver;
+using Microsoft.Extensions.Logging;
+using System.Threading.Tasks;
 
 namespace AceBank.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    //[Authorize]
-    
+    [Authorize]
     public class AccountController : ControllerBase
     {
         private readonly IService _service;
-        public AccountController(IService service)
+        private readonly ILogger<AccountController> _logger;
+
+        public AccountController(IService service, ILogger<AccountController> logger)
         {
             _service = service;
+            _logger = logger;
         }
 
         [HttpPost("Sign Up")]
         [AllowAnonymous]
-        public async Task<IActionResult> SignUp([FromBody] SignUpDetail signupdetail)
+        public async Task<IActionResult> SignUp([FromBody] SignUpDetail signUpDetail)
         {
-            var res =await _service.signUp(signupdetail);
-            if(res != null)
+            if (signUpDetail == null)
             {
-                return Ok(res);
+                _logger.LogWarning("SignUp detail is null.");
+                return BadRequest("Invalid sign up details.");
             }
-            else
+
+            try
             {
-                return BadRequest(res);
+                var result = await _service.signUp(signUpDetail);
+                if (!string.IsNullOrEmpty(result))
+                {
+                    return Ok(result);
+                }
+                else
+                {
+                    return BadRequest("Sign up failed.");
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error during sign up.");
+                return StatusCode(500, "Internal server error.");
             }
         }
 
         [HttpGet("Get Account Detail")]
-        public async Task<IActionResult> GetAccountDetail([FromQuery] long accountnumber, string username)
+        public async Task<IActionResult> GetAccountDetail([FromQuery] long accountNumber, [FromQuery] string username)
         {
-            var res = await _service.getAccountDetail(accountnumber, username);
-            if(res != null)
+            if (accountNumber <= 0 || string.IsNullOrEmpty(username))
             {
-                return Ok(res);
+                _logger.LogWarning("Invalid account number or username.");
+                return BadRequest("Invalid account number or username.");
             }
-            else
+
+            try
             {
-                return NotFound(res);
+                var result = await _service.getAccountDetail(accountNumber, username);
+                if (result != null)
+                {
+                    return Ok(result);
+                }
+                else
+                {
+                    return NotFound("Account not found.");
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error retrieving account details.");
+                return StatusCode(500, "Internal server error.");
             }
         }
 
         [HttpGet("User Log In")]
         [AllowAnonymous]
-        public async Task<IActionResult> LogIn([FromQuery] UserLogin userlogin)
+        public async Task<IActionResult> LogIn([FromQuery] UserLogin userLogin)
         {
-            var res = await _service.logIn(userlogin);
-            if (res != null)
+            if (userLogin == null || userLogin.AccountNumber <= 0 || string.IsNullOrEmpty(userLogin.Password))
             {
-                return Ok(res);
+                _logger.LogWarning("Invalid login details.");
+                return BadRequest("Invalid login details.");
             }
-            else
+
+            try
             {
-                return NotFound(res);
+                var result = await _service.logIn(userLogin);
+                if (!string.IsNullOrEmpty(result))
+                {
+                    return Ok(result);
+                }
+                else
+                {
+                    return Unauthorized("Login failed.");
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error during user login.");
+                return StatusCode(500, "Internal server error.");
             }
         }
-
     }
 }

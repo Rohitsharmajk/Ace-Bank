@@ -8,7 +8,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "accountnumber",
+        "Name": "accountNumber",
         "Type": "System.Int64",
         "IsRequired": false
       },
@@ -29,7 +29,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "signupdetail",
+        "Name": "signUpDetail",
         "Type": "AceBank.Models.SignUpDetail",
         "IsRequired": true
       }
@@ -65,7 +65,7 @@
   {
     "ContainingType": "AceBank.Controllers.StaffController",
     "Method": "CreditByStaff",
-    "RelativePath": "Staff/Credit by Staff",
+    "RelativePath": "Staff/CreditByStaff",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -91,7 +91,7 @@
   {
     "ContainingType": "AceBank.Controllers.StaffController",
     "Method": "DebitByStaff",
-    "RelativePath": "Staff/Debit by Staff",
+    "RelativePath": "Staff/DebitByStaff",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -116,8 +116,39 @@
   },
   {
     "ContainingType": "AceBank.Controllers.StaffController",
+    "Method": "DeleteAccount",
+    "RelativePath": "Staff/DeleteByStaff",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staffdetail",
+        "Type": "AceBank.Models.StaffDetail",
+        "IsRequired": true
+      },
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "accountnumber",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AceBank.Controllers.StaffController",
     "Method": "StaffLogIn",
-    "RelativePath": "Staff/Staff Log In",
+    "RelativePath": "Staff/StaffLogIn",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
