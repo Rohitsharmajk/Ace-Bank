@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "D:\\Ace-Bank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\models\\signupdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:models\\signupdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\models\\accountdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:models\\accountdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\models\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:models\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\service\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:service\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\models\\accountdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:models\\accountdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\models\\signupdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:models\\signupdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\models\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|solutionrelative:models\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D1C47CC-B7D4-4A6F-9A14-4215CFED3EE8}|AceBank.csproj|d:\\ace-bank\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,46 +58,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\Ace-Bank\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
               "ToolTip": "D:\\Ace-Bank\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAADQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-17T20:34:23.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Service.cs",
               "DocumentMoniker": "D:\\Ace-Bank\\Service\\Service.cs",
               "RelativeDocumentMoniker": "Service\\Service.cs",
               "ToolTip": "D:\\Ace-Bank\\Service\\Service.cs",
               "RelativeToolTip": "Service\\Service.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEBAAAAAAAA",
+              "ViewState": "AQIAAPAAAAAAAAAAAAAmwAABAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-17T19:36:37.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "IService.cs",
               "DocumentMoniker": "D:\\Ace-Bank\\Service\\IService.cs",
               "RelativeDocumentMoniker": "Service\\IService.cs",
               "ToolTip": "D:\\Ace-Bank\\Service\\IService.cs",
               "RelativeToolTip": "Service\\IService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-17T19:34:59.57Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UserDetail.cs",
               "DocumentMoniker": "D:\\Ace-Bank\\Models\\UserDetail.cs",
               "RelativeDocumentMoniker": "Models\\UserDetail.cs",
@@ -105,12 +105,11 @@
               "RelativeToolTip": "Models\\UserDetail.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T19:33:27.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T19:33:27.903Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "AccountDetail.cs",
               "DocumentMoniker": "D:\\Ace-Bank\\Models\\AccountDetail.cs",
               "RelativeDocumentMoniker": "Models\\AccountDetail.cs",
@@ -123,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "SignUpDetail.cs",
               "DocumentMoniker": "D:\\Ace-Bank\\Models\\SignUpDetail.cs",
               "RelativeDocumentMoniker": "Models\\SignUpDetail.cs",
@@ -131,25 +130,24 @@
               "RelativeToolTip": "Models\\SignUpDetail.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T19:32:22.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T19:32:22.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StaffController.cs",
               "DocumentMoniker": "D:\\Ace-Bank\\Controllers\\StaffController.cs",
               "RelativeDocumentMoniker": "Controllers\\StaffController.cs",
               "ToolTip": "D:\\Ace-Bank\\Controllers\\StaffController.cs",
               "RelativeToolTip": "Controllers\\StaffController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAcwI0AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T14:16:43.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Ace-Bank\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -162,13 +160,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Ace-Bank\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Ace-Bank\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGIAAAAAAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAE4AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-17T21:17:12.03Z",
               "EditorCaption": ""
@@ -183,8 +181,7 @@
               "RelativeToolTip": "Models\\UserLogin.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T20:52:36.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T20:52:36.936Z"
             }
           ]
         }

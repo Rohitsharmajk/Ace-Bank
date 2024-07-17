@@ -147,6 +147,16 @@
   },
   {
     "ContainingType": "AceBank.Controllers.StaffController",
+    "Method": "GetAllAccountDetail",
+    "RelativePath": "Staff/Get Account Detail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AceBank.Controllers.StaffController",
     "Method": "StaffLogIn",
     "RelativePath": "Staff/StaffLogIn",
     "HttpMethod": "GET",
