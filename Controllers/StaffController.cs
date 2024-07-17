@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AceBank.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [ApiController]
     [Route("[controller]")]
     public class StaffController : ControllerBase
@@ -130,6 +130,29 @@ namespace AceBank.Controllers
             {
                 _logger.LogError(ex, "Error during account deletion.");
                 return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpGet("Get Account Detail")]
+        public async Task<IActionResult> GetAllAccountDetail()
+        {
+
+            try
+            {
+                var result = await _service.getAllAccountDetail();
+                if (result != null)
+                {
+                    return Ok(result);
+                }
+                else
+                {
+                    return NotFound("Account not found.");
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error retrieving account details.");
+                return StatusCode(500, "Internal server error.");
             }
         }
     }

@@ -11,5 +11,6 @@ namespace AceBank.Service
         Task<double> creditByStaff(StaffDetail staffdetail, double amount, long accountnumber);
         Task<double> debitByStaff(StaffDetail staffdetail, double amount, long accountnumber);
         Task<string> deleteAccount(StaffDetail staffdetail, long accountnumber, string username);
+        Task<List<AccountDetail>> getAllAccountDetail();
     }
 }

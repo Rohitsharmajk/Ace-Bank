@@ -6,6 +6,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.Extensions.Logging;
+using MongoDB.Bson;
 
 namespace AceBank.Service
 {
@@ -243,6 +244,24 @@ namespace AceBank.Service
             {
                 _logger.LogError(ex, "Error during account deletion");
                 throw new Exception("Internal Error Occurred");
+            }
+        }
+
+        public async Task<List<AccountDetail>> getAllAccountDetail()
+        {
+            try
+            {
+                var allaccount = await _accountCollection.Find(new BsonDocument()).ToListAsync();
+                foreach(var account in allaccount)
+                {
+                    account.signUpDetail.Password = "*******";
+                }
+                return allaccount;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error fetching account details");
+                return new List<AccountDetail>();
             }
         }
 
